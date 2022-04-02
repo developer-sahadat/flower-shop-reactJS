@@ -3,12 +3,35 @@
     font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 1rem;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.5s;
 }
 .nav-items span{
     color: #F34F3F;
+}
+
+.nav-items:hover{
+    color: #F34F3F;
+}
+.nav-items.active{
+    color: blue;
 }
 .shopping-icons{
     width: 20px;
     color: black;
  
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .navigation{
+        justify-content: start;
+        align-items:flex-start
+    }
 }
