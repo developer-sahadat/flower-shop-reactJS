@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.nav-items{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+.nav-items span{
+    color: #F34F3F;
+}
+.shopping-icons{
+    width: 20px;
+    color: black;
+ 
+}
