@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { ShoppingBagIcon } from '@heroicons/react/solid';
-import '../../Style/Header/Header.css';
+import '../../Style/Header.css';
 import { NavLink } from 'react-router-dom';
 const Header = () => {
     return (
