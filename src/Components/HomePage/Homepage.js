@@ -1,11 +1,13 @@
 import React from 'react';
+import Products from '../Products/Products';
 import Slider from '../slider/Slider';
 
 const Homepage = () => {
     return (
         <div>
             <Slider></Slider>
-            <h1>hi</h1>
+            <br/>
+            <Products/>
         </div>
     );
 };

@@ -1,0 +1,17 @@
+.slider{
+    position: relative;
+}
+.slider-text{
+    position: absolute;
+    z-index: 10;
+    top: 290px;
+    left: 0;
+    font-size: 22px;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+.slider-text marquee{
+    width: 80%;
+    margin: 0 auto;
+}

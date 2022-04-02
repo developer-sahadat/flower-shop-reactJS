@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../Assets/Images/banner3.png'
-import banner2 from '../../Assets/Images/banner3.png'
-import banner3 from '../../Assets/Images/banner2.png'
+import banner1 from '../../Assets/Images/banner3.jpg'
+import banner2 from '../../Assets/Images/banner3.jpg'
+import banner3 from '../../Assets/Images/banner3.jpg'
 
 
 const Slider = () => {

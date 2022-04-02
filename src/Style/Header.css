@@ -14,9 +14,7 @@
 .nav-items:hover{
     color: #F34F3F;
 }
-.nav-items.active{
-    color: #A50360;
-}
+
 .shopping-icons{
     width: 20px;
     color: black;
