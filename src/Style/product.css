@@ -10,7 +10,7 @@
 .product h6{
     font-weight: 600;
 }
-.product button{
+.order-btn{
     width: 60%;
     border: none;
     padding: 10px 0;
@@ -23,7 +23,7 @@
     transition: all 0.5s;
 }
 
-.product button:hover{
+.order-btn:hover{
     background-color: rgb(27, 27, 27);
 
 }

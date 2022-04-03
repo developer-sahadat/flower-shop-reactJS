@@ -11,7 +11,7 @@ const Product = ({product}) => {
                 <h5>{title}</h5>
                 <h6>${price}</h6>
             </div>
-           <Link to={`order/${id}`}><button>Buy Now</button></Link>
+           <Link to={`/order/${id}`}><button className='order-btn'>Buy Now</button></Link>
         </div>
         </div>
     );
