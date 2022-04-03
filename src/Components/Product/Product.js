@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../Style/product.css'
 const Product = ({product}) => {
-    const {title, price, image, }=product
+    const {title, price, image, id}=product
     return (
         <div>
             <div className='product text-center'>
@@ -10,7 +11,7 @@ const Product = ({product}) => {
                 <h5>{title}</h5>
                 <h6>${price}</h6>
             </div>
-            <button>Buy Now</button>
+           <Link to={`order/${id}`}><button>Buy Now</button></Link>
         </div>
         </div>
     );

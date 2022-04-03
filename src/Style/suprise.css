@@ -1,0 +1,18 @@
+.suprise{
+    background: #F7F7F7;
+}
+.suprise h2 span{
+    color: #F34F3F;
+}
+.suprise p{
+    font-size: 16px;
+    color: gray;
+}
+.suprise p span{
+    padding-right: 10px;
+}
+.heart{
+    width: 20px;
+    color: red;
+   
+}
